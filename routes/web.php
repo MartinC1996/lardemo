@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/projects', 'ProjectsController@index');
+Route::get('/home', 'HomeController@index')->name('home');
